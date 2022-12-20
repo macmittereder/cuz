@@ -9,7 +9,7 @@ import {
 } from "react-native";
 
 // 10.0.2.2 is default android emulator localhost
-const ws = new WebSocket("ws://10.0.2.2:9898");
+const ws = new WebSocket("ws://localhost:9898");
 
 const ChatScreen = (props) => {
   const [chat, setChat] = useState([]);
